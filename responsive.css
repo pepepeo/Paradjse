@@ -1,0 +1,41 @@
+/* pc */
+@media (min-width: 1171px) {
+    .app {
+        padding: 0 15px;
+    }
+    .appbar_top--background {
+        padding: 0 15px;
+    }
+    
+}
+
+/* tablet */
+
+@media (min-width: 600px) and (max-width: 1170px) {
+    .app {
+        padding: 0 24px;
+    }
+    .appbar_top__content {
+        display: none;
+    }
+    .appbar_top--background {
+        padding: 0 24px;
+    }
+    
+}
+
+/* Mobile */
+
+@media (max-width: 599px) {
+    .app {
+        padding: 0 16px;
+    }
+    .appbar_top__content {
+        display: none;
+    }
+    .appbar_top--background {
+        padding: 0 16px;
+    }
+
+}
+
